@@ -16,6 +16,8 @@
 		EA0698B32B3346EB00CDE286 /* EighthHomeWorkVibeLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698B22B3346EB00CDE286 /* EighthHomeWorkVibeLabTests.swift */; };
 		EA0698BD2B3346EB00CDE286 /* EighthHomeWorkVibeLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698BC2B3346EB00CDE286 /* EighthHomeWorkVibeLabUITests.swift */; };
 		EA0698BF2B3346EB00CDE286 /* EighthHomeWorkVibeLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698BE2B3346EB00CDE286 /* EighthHomeWorkVibeLabUITestsLaunchTests.swift */; };
+		EA0698CC2B33563700CDE286 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698CB2B33563700CDE286 /* ViewController2.swift */; };
+		EA0698CF2B335AE000CDE286 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698CE2B335AE000CDE286 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EA0698B82B3346EB00CDE286 /* EighthHomeWorkVibeLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EighthHomeWorkVibeLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0698BC2B3346EB00CDE286 /* EighthHomeWorkVibeLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthHomeWorkVibeLabUITests.swift; sourceTree = "<group>"; };
 		EA0698BE2B3346EB00CDE286 /* EighthHomeWorkVibeLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthHomeWorkVibeLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA0698CB2B33563700CDE286 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		EA0698CE2B335AE000CDE286 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,7 @@
 			children = (
 				EA06989B2B3346E900CDE286 /* AppDelegate.swift */,
 				EA06989D2B3346E900CDE286 /* SceneDelegate.swift */,
-				EA06989F2B3346E900CDE286 /* ViewController.swift */,
+				EA0698CD2B33564300CDE286 /* ViewControllers */,
 				EA0698A12B3346E900CDE286 /* Main.storyboard */,
 				EA0698A42B3346EA00CDE286 /* Assets.xcassets */,
 				EA0698A62B3346EA00CDE286 /* LaunchScreen.storyboard */,
@@ -125,6 +129,16 @@
 				EA0698BE2B3346EB00CDE286 /* EighthHomeWorkVibeLabUITestsLaunchTests.swift */,
 			);
 			path = EighthHomeWorkVibeLabUITests;
+			sourceTree = "<group>";
+		};
+		EA0698CD2B33564300CDE286 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA06989F2B3346E900CDE286 /* ViewController.swift */,
+				EA0698CB2B33563700CDE286 /* ViewController2.swift */,
+				EA0698CE2B335AE000CDE286 /* ViewController3.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0698CF2B335AE000CDE286 /* ViewController3.swift in Sources */,
 				EA0698A02B3346E900CDE286 /* ViewController.swift in Sources */,
+				EA0698CC2B33563700CDE286 /* ViewController2.swift in Sources */,
 				EA06989C2B3346E900CDE286 /* AppDelegate.swift in Sources */,
 				EA06989E2B3346E900CDE286 /* SceneDelegate.swift in Sources */,
 			);
